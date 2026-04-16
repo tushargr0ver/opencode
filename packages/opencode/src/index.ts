@@ -239,4 +239,4 @@ try {
   // run using `docker run --init`.
   // Explicitly exit to avoid any hanging subprocesses.
   process.exit()
-}
+};

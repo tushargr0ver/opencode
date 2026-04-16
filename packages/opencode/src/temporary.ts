@@ -30,4 +30,4 @@ const cli = yargs(hideBin(process.argv))
     type: "boolean",
   })
   .command(TuiThreadCommand)
-  .parse()
+  .parse();

@@ -12,4 +12,4 @@ await (sidecarConfig.ocBinary.includes("-baseline")
   ? $`cd ../opencode && bun run build --single --baseline`
   : $`cd ../opencode && bun run build --single`)
 
-await copyBinaryToSidecarFolder(binaryPath, RUST_TARGET)
+await copyBinaryToSidecarFolder(binaryPath, RUST_TARGET);
